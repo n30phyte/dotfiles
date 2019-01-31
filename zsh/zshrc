@@ -1,6 +1,6 @@
 export TERM="xterm-256color"
 
-source ~/.antigen.zsh
+source antigen.zsh
 
 # Antigen setup start
 antigen use oh-my-zsh
