@@ -1,0 +1,26 @@
+export TERM="xterm-256color"
+
+source ~/.antigen.zsh
+
+# Antigen setup start
+antigen use oh-my-zsh
+
+antigen bundle git
+antigen bundle dnf
+antigen bundle pip
+antigen bundle python
+antigen bundle sudo
+
+antigen theme bhilburn/powerlevel9k
+
+antigen apply
+# Antigen setup end
+
+# Theme setup start
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs status root_indicator time)
+# Theme setup end
+
+# ZSH setup start
+CASE_SENSITIVE="true"
+# ZSH setup end
