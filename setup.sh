@@ -29,7 +29,7 @@ sudo dnf config-manager --set-enabled google-chrome
 # DNF
 sudo dnf -y update
 
-sudo dnf -y install git fedora-workstation-repositories
+sudo dnf -y install git
 sudo dnf -y install gnome-tweaks arc-theme zsh guake adobe-source-code-pro-fonts powerline-fonts    # Make shit look nice
 sudo dnf -y install virt-manager clementine filelight radare2 dnf-utils nano google-chrome-stable	# Frequently used programs
 sudo dnf -y install boost-devel clang lldb llvm libcxx-devel gcc nano code valgrind dotnet          # Dev stuff
@@ -55,14 +55,14 @@ git config --global user.email "michael.kwok00@gmail.com"
 
 # Custom keybinds
 dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/binding "'<Primary><Alt>t'"
-dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/binding "'Terminal'"
-dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/binding "'gnome-terminal'"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/name "'Terminal'"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/command "'gnome-terminal'"
 
 # Install antigen for zsh
-curl -L git.io/antigen > antigen.zsh
+curl -L git.io/antigen > ~/.antigen.zsh
 
 # Link rcfiles
-ln -s ./zsh/zshrc ~/.zshrc
+ln -s $PWD/zsh/zshrc ~/.zshrc
 
 # Make directories
 mkdir ~/Workspace
