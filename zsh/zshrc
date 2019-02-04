@@ -24,3 +24,10 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator time)
 # ZSH setup start
 CASE_SENSITIVE="true"
 # ZSH setup end
+
+# Aliases and functions start
+function update-everything {
+    sudo dnf update -y
+    sudo flatpak update -y
+}
+# Aliases and functions end
