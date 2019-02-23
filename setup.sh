@@ -29,10 +29,10 @@ sudo dnf config-manager --set-enabled google-chrome
 # DNF
 sudo dnf -y update
 
-sudo dnf -y install git
-sudo dnf -y install gnome-tweaks arc-theme zsh guake adobe-source-code-pro-fonts powerline-fonts    # Make shit look nice
-sudo dnf -y install virt-manager clementine filelight radare2 dnf-utils nano google-chrome-stable	# Frequently used programs
-sudo dnf -y install boost-devel clang lldb llvm libcxx-devel gcc nano code valgrind dotnet          # Dev stuff
+sudo dnf -y install gnome-tweaks arc-theme zsh guake											    						# Make shit look nice
+sudo dnf -y install adobe-source-code-pro-fonts adobe-source-sans-pro-fonts powerline-fonts adobe-source-serif-pro-fonts	# Fonts
+sudo dnf -y install virt-manager clementine filelight radare2 dnf-utils nano google-chrome-stable							# Frequently used programs
+sudo dnf -y install boost-devel clang lldb llvm libcxx-devel gcc nano code valgrind dotnet          						# Dev stuff
 
 # Flathub
 flatpak install flathub com.discordapp.Discord
@@ -40,7 +40,7 @@ flatpak install flathub com.spotify.Client
 flatpak install flathub io.github.Hexchat
 
 # Franz (AppImage)
-get_download_url meetfranz franz
+# get_download_url meetfranz franz
 #./franz*.AppImage
 #mv franz*.AppImage ~/Desktop/AppImage/
 
