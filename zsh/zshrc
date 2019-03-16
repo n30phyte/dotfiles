@@ -28,14 +28,9 @@ CASE_SENSITIVE="true"
 unsetopt histverify
 # Shell setup end
 
-# Aliases and functions start
-
-# Aliases and functions end
-
 # Source your custom files
 if [ -f ~/.zshprofile ]; then
     source ~/.zshprofile
 else
     touch ~/.zshprofile
 fi
-
