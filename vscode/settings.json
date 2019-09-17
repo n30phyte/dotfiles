@@ -33,6 +33,5 @@
     "explorer.confirmDragAndDrop": false,
     "latex-workshop.synctex.synctexjs.enabled": false,
     "editor.fontFamily": "'Consolas'",
-    "markdown-preview-enhanced.enableEmojiSyntax": false,
-
+    "markdown-preview-enhanced.enableEmojiSyntax": false
 }
