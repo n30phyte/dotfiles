@@ -22,10 +22,10 @@ sudo dnf config-manager --set-enabled google-chrome
 # DNF
 sudo dnf -y update
 
-sudo dnf -y install zsh											    			# Make shit look nice
+sudo dnf -y install zsh # Make shit look nice
 sudo dnf -y install adobe-source-code-pro-fonts adobe-source-sans-pro-fonts powerline-fonts adobe-source-serif-pro-fonts	# Fonts
-sudo dnf -y install virt-manager clementine radare2 dnf-utils nano google-chrome-stable						# Frequently used programs
-sudo dnf -y install boost-devel clang lldb llvm libcxx-devel gcc nano code valgrind dotnet          				# Dev stuff
+sudo dnf -y install virt-manager clementine radare2 dnf-utils nano google-chrome-stable # Frequently used programs
+sudo dnf -y install boost-devel clang lldb llvm libcxx-devel gcc nano code valgrind dotnet # Dev stuff
 
 # Flathub
 flatpak install flathub com.discordapp.Discord
@@ -46,6 +46,13 @@ curl -L git.io/antigen > ~/.antigen.zsh
 
 # Link rcfiles
 ln -s $PWD/zsh/zshrc ~/.zshrc
+ln -s $PWD/mako ~/.config/mako
+ln -s $PWD/rofi ~/.config/rofi
+ln -s $PWD/sway ~/.config/sway
+ln -s $PWD/termite ~/.config/termite
+ln -s $PWD/waybar ~/.config/waybar
+
+ln -s $PWD/vscode/settings.json ~/.config/Code/User/settings.json
 
 # Make directories
 mkdir ~/Workspace

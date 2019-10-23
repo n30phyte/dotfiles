@@ -1,10 +1,10 @@
 {
     "files.autoSave": "onFocusChange",
+    
     "editor.cursorStyle": "line-thin",
-    "editor.cursorBlinking": "smooth",
-    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "editor.cursorBlinking": "phase",
     "editor.minimap.enabled": false,
-    "git.autofetch": true,
+    "editor.fontFamily": "'Source Code Pro', 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Free Solid'",
     "editor.accessibilitySupport": "off",
     "editor.renderWhitespace": "boundary",
     "editor.parameterHints.cycle": true,
@@ -14,24 +14,29 @@
     "editor.cursorSmoothCaretAnimation": true,
     "editor.fontLigatures": true,
     "editor.suggest.localityBonus": true,
-    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
-    "workbench.statusBar.feedback.visible": false,
-    "window.titleBarStyle": "native",
-    "explorer.openEditors.visible": 3,
-    "search.useGlobalIgnoreFiles": true,
-    "terminal.integrated.enableBell": true,
-    "C_Cpp.clang_format_fallbackStyle": "Google",
-    "C_Cpp.clang_format_path": "/usr/bin/clang-format",
-    "C_Cpp.clang_format_sortIncludes": true,
-    "C_Cpp.default.cppStandard": "c++14",
+    
+    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+    
+    "debug.console.fontFamily": "'Source Code Pro', Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Free Solid'",
+    
+    
+    "C_Cpp.clang_format_fallbackStyle": "Chromium",
+    "C_Cpp.default.cppStandard": "c++17",
     "C_Cpp.default.cStandard": "c11",
-    "terminal.integrated.fontFamily": "\"Source Code Pro\"",
-    "window.zoomLevel": 0,
-    "latex-workshop.progress.barStyle": "Block Width",
-    "latex-workshop.latex.autoClean.run": "onFailed",
-    "latex-workshop.view.pdf.viewer": "tab",
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+    
+    "git.autofetch": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.defaultDateFormat": "HH:MM YYYY-MM-DD",
+    
+    "eslint.lintTask.enable": true,
+    
     "explorer.confirmDragAndDrop": false,
-    "latex-workshop.synctex.synctexjs.enabled": false,
-    "editor.fontFamily": "'Consolas'",
-    "markdown-preview-enhanced.enableEmojiSyntax": false
+    
+    "window.titleBarStyle": "custom",
+    
+    "diffEditor.ignoreTrimWhitespace": false,
+    
+    "latex-workshop.view.pdf.viewer": "tab"
 }
