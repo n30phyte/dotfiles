@@ -1,0 +1,60 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "Consolas", "Font Awesome 5 Brands", "Font Awesome 5 Free",
+    "Font Awesome 5 Free Solid";
+  font-size: 13px;
+  min-height: 0;
+}
+
+window#waybar {
+  background-color: transparent;
+  color: white;
+}
+
+#workspaces button {
+  padding: 0 5px;
+  color: white;
+}
+
+#workspaces button.focused {
+  background: #fc9403;
+  border-bottom: 2px solid white;
+}
+
+#clock {
+  padding: 0 5px;
+  background-color: rgba(214, 139, 0, 0.5);
+}
+
+#temperature,
+#cpu,
+#memory,
+#backlight,
+#pulseaudio,
+#network,
+#battery,
+#tray {
+  padding: 0 5px;
+}
+
+#temperature button:hover,
+#cpu button:hover,
+#memory button:hover,
+#backlight button:hover,
+#pulseaudio button:hover,
+#network button:hover,
+#battery button:hover,
+#tray button:hover,
+#workspaces button:hover {
+  background: #fcc203;
+  border-bottom: 2px solid white;
+}
+
+@keyframes blink {
+  to {
+      background-color: #C70039;
+      color: white;
+  }
+}
+
