@@ -4,7 +4,7 @@
     "editor.cursorStyle": "line-thin",
     "editor.cursorBlinking": "phase",
     "editor.minimap.enabled": false,
-    "editor.fontFamily": "'Source Code Pro', 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Free Solid'",
+    "editor.fontFamily": "'Hack Nerd Font', 'Font Awesome', 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Free Solid'",
     "editor.accessibilitySupport": "off",
     "editor.renderWhitespace": "boundary",
     "editor.parameterHints.cycle": true,
@@ -18,7 +18,7 @@
     "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
     "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
     
-    "debug.console.fontFamily": "'Source Code Pro', Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Free Solid'",
+    "debug.console.fontFamily": "'Hack Nerd Font Mono'",
     
     
     "C_Cpp.clang_format_fallbackStyle": "Chromium",
@@ -38,5 +38,11 @@
     
     "diffEditor.ignoreTrimWhitespace": false,
     
-    "latex-workshop.view.pdf.viewer": "tab"
+    "latex-workshop.view.pdf.viewer": "tab",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
 }
