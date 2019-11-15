@@ -21,7 +21,7 @@ set $menu rofi -show combi
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/n30phyte/Pictures/Wallpapers/rtfm-1920x1080.png fill
+output * bg /home/n30phyte/Pictures/Wallpapers/wallhaven-ymgg2g.jpg fill
 #
 # Example configuration:
 #
@@ -75,6 +75,7 @@ output * bg /home/n30phyte/Pictures/Wallpapers/rtfm-1920x1080.png fill
     bindsym XF86AudioPlay exec playerctl play-pause
     bindsym XF86AudioNext exec playerctl next
     bindsym XF86AudioPrev exec playerctl previous
+    bindsym XF86AudioStop exec playerctl stop
 
     bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
     bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5% 
