@@ -225,4 +225,9 @@ gaps bottom 0
 exec wmname LG3D
 exec mako
 
+exec /usr/libexec/xdg-desktop-portal -r
+exec xdg-desktop-portal-wlr
+
+exec /usr/libexec/kf5/polkit-kde-authentication-agent-1
+
 include /etc/sway/config.d/*

@@ -22,11 +22,6 @@ window#waybar {
   border-bottom: 2px solid white;
 }
 
-#clock {
-  padding: 0 5px;
-  background-color: rgba(214, 139, 0, 0.5);
-}
-
 #temperature,
 #cpu,
 #memory,
@@ -34,7 +29,8 @@ window#waybar {
 #pulseaudio,
 #network,
 #battery,
-#tray {
+#tray,
+#clock {
   padding: 0 5px;
 }
 
