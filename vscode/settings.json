@@ -1,10 +1,9 @@
 {
     "files.autoSave": "onFocusChange",
-    
     "editor.cursorStyle": "line-thin",
     "editor.cursorBlinking": "phase",
     "editor.minimap.enabled": false,
-    "editor.fontFamily": "'Hack Nerd Font', 'Font Awesome', 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Free Solid'",
+    "editor.fontFamily": "'Hack Nerd Font'",
     "editor.accessibilitySupport": "off",
     "editor.renderWhitespace": "boundary",
     "editor.parameterHints.cycle": true,
@@ -14,35 +13,36 @@
     "editor.cursorSmoothCaretAnimation": true,
     "editor.fontLigatures": true,
     "editor.suggest.localityBonus": true,
-    
     "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
     "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
-    
     "debug.console.fontFamily": "'Hack Nerd Font Mono'",
-    
-    
-    "C_Cpp.clang_format_fallbackStyle": "Chromium",
-    "C_Cpp.default.cppStandard": "c++17",
-    "C_Cpp.default.cStandard": "c11",
     "C_Cpp.clang_format_path": "/usr/bin/clang-format",
-    
+    "C_Cpp.enhancedColorization": "Enabled",
     "git.autofetch": true,
     "gitlens.codeLens.enabled": false,
     "gitlens.defaultDateFormat": "HH:MM YYYY-MM-DD",
-    
-    "eslint.lintTask.enable": true,
-    
     "explorer.confirmDragAndDrop": false,
-    
     "window.titleBarStyle": "custom",
-    
     "diffEditor.ignoreTrimWhitespace": false,
-    
     "latex-workshop.view.pdf.viewer": "tab",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "explorer.confirmDelete": false,
+    "go.useLanguageServer": true,
+    "gopls": {
+        "usePlaceholders": true, // add parameter placeholders when completing a function
+        // Experimental settings
+        "completeUnimported": true, // autocomplete unimported packages
+        "watchFileChanges": true, // watch file changes outside of the editor
+        "deepCompletion": true, // enable deep completion
+    },
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.defaultFormatter.ts": "vscode-typescript",
 }
