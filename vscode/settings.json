@@ -1,66 +1,64 @@
 {
-    "C_Cpp.clang_format_path": "/usr/bin/clang-format",
-    "C_Cpp.enhancedColorization": "Enabled",
-    "debug.console.fontFamily": "'Hack Nerd Font Mono'",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.accessibilitySupport": "off",
-    "editor.cursorBlinking": "phase",
-    "editor.cursorSmoothCaretAnimation": true,
-    "editor.cursorStyle": "line-thin",
-    "editor.fontFamily": "'Hack Nerd Font'",
-    "editor.fontLigatures": true,
-    "editor.formatOnSave": true,
-    "editor.minimap.enabled": true,
-    "editor.parameterHints.cycle": true,
-    "editor.renderWhitespace": "boundary",
-    "editor.rulers": [
-        80
-    ],
-    "editor.scrollBeyondLastLine": false,
-    "editor.smoothScrolling": true,
-    "editor.suggest.localityBonus": true,
-    "editor.suggestSelection": "first",
-    "editor.tabCompletion": "on",
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "files.autoSave": "onFocusChange",
-    "git.autofetch": true,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.defaultDateFormat": "HH:MM YYYY-MM-DD",
-    "go.useLanguageServer": true,
-    "gopls": {
-        "usePlaceholders": true, // add parameter placeholders when completing a function
-        // Experimental settings
-        "completeUnimported": true, // autocomplete unimported packages
-        "watchFileChanges": true, // watch file changes outside of the editor
-        "deepCompletion": true, // enable deep completion
-    },
-    "latex-workshop.view.pdf.viewer": "tab",
-    "vim.cursorStylePerMode.insert": "line-thin",
-    "vim.cursorStylePerMode.normal": "block",
-    "vim.cursorStylePerMode.replace": "underline-thin",
-    "vim.useSystemClipboard": true,
-    "vim.handleKeys": {
-        "<C-a>": false,
-        "<C-f>": false
-    },
-    "vim.camelCaseMotion.enable": true,
-    "window.titleBarStyle": "custom",
-    "window.zoomLevel": 0,
-    "workbench.colorTheme": "Monokai Pro",
-    "workbench.iconTheme": "Monokai Pro Icons",
-    "[cpp]": {
-        "editor.defaultFormatter": "ms-vscode.cpptools"
-    },
-    "[latex]": {
-        "editor.defaultFormatter": "James-Yu.latex-workshop"
-    },
-    "[markdown]": {
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-    },
-    "python.jediEnabled": false,
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "git.enableSmartCommit": true,
+  "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+  "C_Cpp.enhancedColorization": "Enabled",
+  "debug.console.fontFamily": "'Hack Nerd Font Mono'",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.accessibilitySupport": "off",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorStyle": "line-thin",
+  "editor.fontFamily": "'Hack Nerd Font'",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": true,
+  "editor.parameterHints.cycle": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [80],
+  "editor.scrollBeyondLastLine": false,
+  "editor.smoothScrolling": true,
+  "editor.suggest.localityBonus": true,
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "onFocusChange",
+  "git.autofetch": true,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.defaultDateFormat": "HH:MM YYYY-MM-DD",
+  "go.useLanguageServer": true,
+  "gopls": {
+    "usePlaceholders": true, // add parameter placeholders when completing a function
+    // Experimental settings
+    "completeUnimported": true, // autocomplete unimported packages
+    "watchFileChanges": true, // watch file changes outside of the editor
+    "deepCompletion": true // enable deep completion
+  },
+  "latex-workshop.view.pdf.viewer": "tab",
+  "vim.cursorStylePerMode.insert": "line-thin",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.replace": "underline-thin",
+  "vim.useSystemClipboard": true,
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.camelCaseMotion.enable": true,
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Monokai Pro",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "python.jediEnabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "git.enableSmartCommit": true
 }

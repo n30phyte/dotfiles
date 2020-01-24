@@ -46,13 +46,13 @@ curl -L git.io/antigen > ~/.antigen.zsh
 
 # Link rcfiles
 ln -s $PWD/zsh/zshrc ~/.zshrc
-ln -s $PWD/mako ~/.config/mako
-ln -s $PWD/rofi ~/.config/rofi
-ln -s $PWD/sway ~/.config/sway
-ln -s $PWD/termite ~/.config/termite
-ln -s $PWD/waybar ~/.config/waybar
-
 ln -s $PWD/vscode/settings.json ~/.config/Code/User/settings.json
+
+ln -s $PWD/mako ~/.config/
+ln -s $PWD/rofi ~/.config/
+ln -s $PWD/sway ~/.config/
+ln -s $PWD/termite ~/.config/
+ln -s $PWD/waybar ~/.config/
 
 # Make directories
 mkdir ~/Workspace
