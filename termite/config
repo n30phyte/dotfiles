@@ -71,7 +71,7 @@ color15 = #eceff4
 [hints]
 #font = Monospace 13
 #foreground = #dcdccc
-#background = #3f3f3f
+#background = rgba(0, 0, 0, 0.5)
 #active_foreground = #e68080
 #active_background = #3f3f3f
 #padding = 2

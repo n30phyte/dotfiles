@@ -21,7 +21,7 @@ set $menu rofi -show combi
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/n30phyte/Pictures/Wallpapers/rtfm-1920x1080.png fill
+output * bg /home/n30phyte/Pictures/Wallpapers/gitpornhub-1920x1080.png fill
 #
 # Example configuration:
 #
@@ -217,10 +217,6 @@ input "1739:31251:SYNA2393:00_06CB:7A13_Touchpad" {
 
 default_border pixel 0
 
-gaps inner 5
-gaps outer 10
-gaps bottom 0
-
 exec wmname LG3D
 exec mako
 
@@ -228,5 +224,7 @@ exec /usr/libexec/xdg-desktop-portal -r
 exec xdg-desktop-portal-wlr
 
 exec /usr/libexec/kf5/polkit-kde-authentication-agent-1
+
+exec ln -sf /run/user/1000/discord-ipc-0 /run/user/1000/app/com.discordapp.Discord/discord-ipc-0
 
 include /etc/sway/config.d/*
