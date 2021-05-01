@@ -32,10 +32,10 @@ setopt +o nomatch
 # Shell setup end
 
 # Source your custom files
-if [ -f ~/.zshprofile ]; then
-    source ~/.zshprofile
+if [ -f ~/.zprofile ]; then
+    source ~/.zprofile
 else
-    touch ~/.zshprofile
+    touch ~/.zprofile
 fi
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
