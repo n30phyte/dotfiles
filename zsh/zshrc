@@ -10,13 +10,6 @@ source ~/.antigen.zsh
 # Antigen setup start
 antigen use oh-my-zsh
 
-antigen bundle git
-antigen bundle dnf
-antigen bundle pip
-antigen bundle python
-antigen bundle sudo
-antigen bundle jsontools
-
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle unixorn/autoupdate-antigen.zshplugin
 
@@ -39,4 +32,5 @@ else
 fi
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
